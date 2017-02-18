@@ -36,3 +36,10 @@ var formattedRole = HTMLheaderRole.replace("%data%", role);
 
 $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
+
+// var bio = {
+//     "name" = "Wei Wei",
+//     "role" = "Sofeware Development Enginee",
+//     "contact info" = "8312957242",
+//     "bioPic" = images/me.jpg
+// }
