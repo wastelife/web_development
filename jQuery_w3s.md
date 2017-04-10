@@ -11,7 +11,7 @@
 			- [The element Selector](#the-element-selector)
 			- [The #id Selector](#the-id-selector)
 			- [The .class Selector](#the-class-selector)
-			- [[More Examples of jQuery Selectors](https://www.w3schools.com/jquery/jquery_selectors.asp)](#more-examples-of-jquery-selectorshttpswwww3schoolscomjqueryjqueryselectorsasp)
+			- [More Examples of jQuery Selectors](#more-examples-of-jquery-selectors)
 		- [jQuery Event Methods](#jquery-event-methods)
 	- [jQuery Effects](#jquery-effects)
 		- [jQuery hide() and show()](#jquery-hide-and-show)
@@ -107,7 +107,8 @@ $(document).ready(function(){
     });
 });
 ```
-####[More Examples of jQuery Selectors](https://www.w3schools.com/jquery/jquery_selectors.asp)
+#### More Examples of jQuery Selectors  
+https://www.w3schools.com/jquery/jquery_selectors.asp
 
 ###jQuery Event Methods
 
