@@ -1,7 +1,7 @@
 # jQuery in udacity
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [jQuery](#jquery-in-udacity)
+- [jQuery in udacity](#jquery-in-udacity)
 	- [Why jQuery?](#why-jquery)
 	- [3 ways to select elements in jQuery](#3-ways-to-select-elements-in-jquery)
 	- [DOM manipulation](#dom-manipulation)
