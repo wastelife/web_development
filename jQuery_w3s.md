@@ -36,51 +36,43 @@
 		- [jQuery - AJAX get() and post() Methods](#jquery-ajax-get-and-post-methods)
 
 <!-- /TOC -->
-##jQuery Tutorial
-###What is jQuery?
+## jQuery Tutorial
+### What is jQuery?
 JavaScript library
-####Adding jQuery to Your Web Pages
+#### Adding jQuery to Your Web Pages
 Downloading jQuery / jQuery CDN
 Google CDN:
-
 ```
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 ```
-###jQuery Syntax
+### jQuery Syntax
 Examples:
 
 ```js
 $(this).hide() - hides the current element.
-
 $("p").hide() - hides all <p> elements.
-
 $(".test").hide() - hides all elements with class="test".
-
 $("#test").hide() - hides the element with id="test".
 ```
-####The Document Ready Event                  
+#### The Document Ready Event                  
 2 methonds
 
 ```js
 $(document).ready(function(){
-
    // jQuery methods go here...
-
 });
 ```
 
 ```js
 $(function(){
-
    // jQuery methods go here...
-
 });
 ```
-###jQuery Selectors
+### jQuery Selectors
 jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.
-####The element Selector
+#### The element Selector
 
 ```js
 $(document).ready(function(){
@@ -90,7 +82,7 @@ $(document).ready(function(){
 });
 ```
 
-####The #id Selector
+#### The #id Selector
 ```js
 $(document).ready(function(){
     $("button").click(function(){
@@ -98,7 +90,7 @@ $(document).ready(function(){
     });
 });
 ```
-####The .class Selector
+#### The .class Selector
 
 ```js
 $(document).ready(function(){
@@ -110,7 +102,7 @@ $(document).ready(function(){
 #### More Examples of jQuery Selectors  
 https://www.w3schools.com/jquery/jquery_selectors.asp
 
-###jQuery Event Methods
+### jQuery Event Methods
 
 ```js
 $("p").click(function(){
@@ -118,24 +110,24 @@ $("p").click(function(){
 });
 ```
 
-##jQuery Effects
-###jQuery hide() and show()
-####jQuery toggle()
+## jQuery Effects
+### jQuery hide() and show()
+#### jQuery toggle()
 switch between hide/show
-###jQuery Effects - Fading
+### jQuery Effects - Fading
 * fadeIn()
 * fadeOut()
 * fadeToggle()
 * fadeTo()
 
-###jQuery Effects - Sliding
+### jQuery Effects - Sliding
 * slideDown()
 * slideUp()
 * slideToggle()
 
-###jQuery Effects - Animation
-###jQuery Effects - stop()
-###jQuery Callback Functions
+### jQuery Effects - Animation
+### jQuery Effects - stop()
+### jQuery Callback Functions
 
 ```js
 $("button").click(function(){
@@ -144,7 +136,7 @@ $("button").click(function(){
     });
 });
 ```
-###jQuery - Chaining
+### jQuery - Chaining
 `$("#p1").css("color", "red").slideUp(2000).slideDown(2000);`
 or
 
@@ -153,8 +145,8 @@ $("#p1").css("color", "red")
   .slideUp(2000)
   .slideDown(2000);
 ```
-##jQuery HTML
-###jQuery - Get Content and Attributes
+## jQuery HTML
+### jQuery - Get Content and Attributes
 * text() - Sets or returns the text content of selected elements
 * html() - Sets or returns the content of selected elements (including HTML markup)
 * val() - Sets or returns the value of form fields
@@ -181,7 +173,7 @@ $("button").click(function(){
     alert($("#w3s").attr("href"));
 });
 ```
-###jQuery - Set Content and Attributes
+### jQuery - Set Content and Attributes
 We will use the same three methods from the previous page to set content:
 
 * text() - Sets or returns the text content of selected elements
@@ -211,7 +203,7 @@ $("button").click(function(){
 A Callback Function for attr()
 ???
 
-###jQuery - Add Elements
+### jQuery - Add Elements
 We will look at four jQuery methods that are used to add new content:
 
 * append() - Inserts content at the end of the selected elements
@@ -219,8 +211,8 @@ We will look at four jQuery methods that are used to add new content:
 * after() - Inserts content after the selected elements
 * before() - Inserts content before the selected elements
 
-###jQuery - Remove Elements
-###jQuery - Get and Set CSS Classes
+### jQuery - Remove Elements
+### jQuery - Get and Set CSS Classes
 jQuery has several methods for CSS manipulation. We will look at the following methods:
 
 * addClass() - Adds one or more classes to the selected elements
@@ -228,8 +220,8 @@ jQuery has several methods for CSS manipulation. We will look at the following m
 * toggleClass() - Toggles between adding/removing classes from the selected elements
 * css() - Sets or returns the style attribute
 
-###jQuery - css() Method
-###jQuery - Dimensions
+### jQuery - css() Method
+### jQuery - Dimensions
 jQuery has several important methods for working with dimensions:
 
 * width()
@@ -239,11 +231,11 @@ jQuery has several important methods for working with dimensions:
 * outerWidth()
 * outerHeight()
 
-##jQuery AJAX
-###jQuery - AJAX Introduction
+## jQuery AJAX
+### jQuery - AJAX Introduction
 What is AJAX?
 AJAX = Asynchronous JavaScript and XML.
 
 In short; AJAX is about loading data in the background and display it on the webpage, without reloading the whole page.
-###jQuery - AJAX load() Method
-###jQuery - AJAX get() and post() Methods
+### jQuery - AJAX load() Method
+### jQuery - AJAX get() and post() Methods
